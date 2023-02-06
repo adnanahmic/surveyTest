@@ -1,0 +1,25 @@
+// Styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+html, body, #root { height: 100%; }
+a { text-decoration: none; }
+
+// Modal
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background: #FFF;
+    padding: 32px;
+}
+
+// Utils
+.ml-20 { margin-left: 20px !important; }
+.text-white { color: #FFF; }
